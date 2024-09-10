@@ -15,7 +15,7 @@ namespace WebApplication46.Controllers
 
         public IActionResult Index()
         {
-            return View();
+            return Content("This is master branch");
         }
 
         public IActionResult Privacy()
