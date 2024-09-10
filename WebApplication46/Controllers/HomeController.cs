@@ -20,7 +20,7 @@ namespace WebApplication46.Controllers
 
         public IActionResult Privacy()
         {
-            return View();
+            return Content("Privacy method updated");
         }
 
         [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]
